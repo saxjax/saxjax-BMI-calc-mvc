@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E9BDE628814636009C8A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BDE528814636009C8A8D /* AppDelegate.swift */; };
+		E4E9BDE828814636009C8A8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BDE728814636009C8A8D /* SceneDelegate.swift */; };
+		E4E9BDEA28814636009C8A8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BDE928814636009C8A8D /* ViewController.swift */; };
+		E4E9BDED28814636009C8A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E9BDEB28814636009C8A8D /* Main.storyboard */; };
+		E4E9BDEF28814637009C8A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E9BDEE28814637009C8A8D /* Assets.xcassets */; };
+		E4E9BDF228814637009C8A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E9BDF028814637009C8A8D /* LaunchScreen.storyboard */; };
+		E4E9BDFD28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BDFC28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift */; };
+		E4E9BE0728814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE0628814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift */; };
+		E4E9BE0928814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE0828814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4E9BDF928814637009C8A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E9BDDA28814636009C8A8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E9BDE128814636009C8A8D;
+			remoteInfo = "saxjax BMI calc mvc";
+		};
+		E4E9BE0328814637009C8A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E9BDDA28814636009C8A8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E9BDE128814636009C8A8D;
+			remoteInfo = "saxjax BMI calc mvc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4E9BDE228814636009C8A8D /* saxjax BMI calc mvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saxjax BMI calc mvc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E9BDE528814636009C8A8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4E9BDE728814636009C8A8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4E9BDE928814636009C8A8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4E9BDEC28814636009C8A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E9BDEE28814637009C8A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E9BDF128814637009C8A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4E9BDF328814637009C8A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E9BDF828814637009C8A8D /* saxjax BMI calc mvcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saxjax BMI calc mvcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E9BDFC28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saxjax_BMI_calc_mvcTests.swift; sourceTree = "<group>"; };
+		E4E9BE0228814637009C8A8D /* saxjax BMI calc mvcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saxjax BMI calc mvcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E9BE0628814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saxjax_BMI_calc_mvcUITests.swift; sourceTree = "<group>"; };
+		E4E9BE0828814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saxjax_BMI_calc_mvcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E9BDDF28814636009C8A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E9BDF528814637009C8A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E9BDFF28814637009C8A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E9BDD928814636009C8A8D = {
+			isa = PBXGroup;
+			children = (
+				E4E9BDE428814636009C8A8D /* saxjax BMI calc mvc */,
+				E4E9BDFB28814637009C8A8D /* saxjax BMI calc mvcTests */,
+				E4E9BE0528814637009C8A8D /* saxjax BMI calc mvcUITests */,
+				E4E9BDE328814636009C8A8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E9BDE328814636009C8A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BDE228814636009C8A8D /* saxjax BMI calc mvc.app */,
+				E4E9BDF828814637009C8A8D /* saxjax BMI calc mvcTests.xctest */,
+				E4E9BE0228814637009C8A8D /* saxjax BMI calc mvcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E9BDE428814636009C8A8D /* saxjax BMI calc mvc */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BDE528814636009C8A8D /* AppDelegate.swift */,
+				E4E9BDE728814636009C8A8D /* SceneDelegate.swift */,
+				E4E9BDE928814636009C8A8D /* ViewController.swift */,
+				E4E9BDEB28814636009C8A8D /* Main.storyboard */,
+				E4E9BDEE28814637009C8A8D /* Assets.xcassets */,
+				E4E9BDF028814637009C8A8D /* LaunchScreen.storyboard */,
+				E4E9BDF328814637009C8A8D /* Info.plist */,
+			);
+			path = "saxjax BMI calc mvc";
+			sourceTree = "<group>";
+		};
+		E4E9BDFB28814637009C8A8D /* saxjax BMI calc mvcTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BDFC28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift */,
+			);
+			path = "saxjax BMI calc mvcTests";
+			sourceTree = "<group>";
+		};
+		E4E9BE0528814637009C8A8D /* saxjax BMI calc mvcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BE0628814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift */,
+				E4E9BE0828814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift */,
+			);
+			path = "saxjax BMI calc mvcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E9BDE128814636009C8A8D /* saxjax BMI calc mvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E9BE0C28814637009C8A8D /* Build configuration list for PBXNativeTarget "saxjax BMI calc mvc" */;
+			buildPhases = (
+				E4E9BDDE28814636009C8A8D /* Sources */,
+				E4E9BDDF28814636009C8A8D /* Frameworks */,
+				E4E9BDE028814636009C8A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "saxjax BMI calc mvc";
+			productName = "saxjax BMI calc mvc";
+			productReference = E4E9BDE228814636009C8A8D /* saxjax BMI calc mvc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4E9BDF728814637009C8A8D /* saxjax BMI calc mvcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E9BE0F28814637009C8A8D /* Build configuration list for PBXNativeTarget "saxjax BMI calc mvcTests" */;
+			buildPhases = (
+				E4E9BDF428814637009C8A8D /* Sources */,
+				E4E9BDF528814637009C8A8D /* Frameworks */,
+				E4E9BDF628814637009C8A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E9BDFA28814637009C8A8D /* PBXTargetDependency */,
+			);
+			name = "saxjax BMI calc mvcTests";
+			productName = "saxjax BMI calc mvcTests";
+			productReference = E4E9BDF828814637009C8A8D /* saxjax BMI calc mvcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4E9BE0128814637009C8A8D /* saxjax BMI calc mvcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E9BE1228814637009C8A8D /* Build configuration list for PBXNativeTarget "saxjax BMI calc mvcUITests" */;
+			buildPhases = (
+				E4E9BDFE28814637009C8A8D /* Sources */,
+				E4E9BDFF28814637009C8A8D /* Frameworks */,
+				E4E9BE0028814637009C8A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E9BE0428814637009C8A8D /* PBXTargetDependency */,
+			);
+			name = "saxjax BMI calc mvcUITests";
+			productName = "saxjax BMI calc mvcUITests";
+			productReference = E4E9BE0228814637009C8A8D /* saxjax BMI calc mvcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E9BDDA28814636009C8A8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E4E9BDE128814636009C8A8D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E4E9BDF728814637009C8A8D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E4E9BDE128814636009C8A8D;
+					};
+					E4E9BE0128814637009C8A8D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E4E9BDE128814636009C8A8D;
+					};
+				};
+			};
+			buildConfigurationList = E4E9BDDD28814636009C8A8D /* Build configuration list for PBXProject "saxjax BMI calc mvc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E9BDD928814636009C8A8D;
+			productRefGroup = E4E9BDE328814636009C8A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E9BDE128814636009C8A8D /* saxjax BMI calc mvc */,
+				E4E9BDF728814637009C8A8D /* saxjax BMI calc mvcTests */,
+				E4E9BE0128814637009C8A8D /* saxjax BMI calc mvcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E9BDE028814636009C8A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E9BDF228814637009C8A8D /* LaunchScreen.storyboard in Resources */,
+				E4E9BDEF28814637009C8A8D /* Assets.xcassets in Resources */,
+				E4E9BDED28814636009C8A8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E9BDF628814637009C8A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E9BE0028814637009C8A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E9BDDE28814636009C8A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E9BDEA28814636009C8A8D /* ViewController.swift in Sources */,
+				E4E9BDE628814636009C8A8D /* AppDelegate.swift in Sources */,
+				E4E9BDE828814636009C8A8D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E9BDF428814637009C8A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E9BDFD28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E9BDFE28814637009C8A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E9BE0928814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift in Sources */,
+				E4E9BE0728814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E9BDFA28814637009C8A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E9BDE128814636009C8A8D /* saxjax BMI calc mvc */;
+			targetProxy = E4E9BDF928814637009C8A8D /* PBXContainerItemProxy */;
+		};
+		E4E9BE0428814637009C8A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E9BDE128814636009C8A8D /* saxjax BMI calc mvc */;
+			targetProxy = E4E9BE0328814637009C8A8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4E9BDEB28814636009C8A8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E9BDEC28814636009C8A8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4E9BDF028814637009C8A8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E9BDF128814637009C8A8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E9BE0A28814637009C8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4E9BE0B28814637009C8A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4E9BE0D28814637009C8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "saxjax BMI calc mvc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.saxjax-BMI-calc-mvc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4E9BE0E28814637009C8A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "saxjax BMI calc mvc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.saxjax-BMI-calc-mvc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4E9BE1028814637009C8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.saxjax-BMI-calc-mvcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saxjax BMI calc mvc.app/saxjax BMI calc mvc";
+			};
+			name = Debug;
+		};
+		E4E9BE1128814637009C8A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.saxjax-BMI-calc-mvcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saxjax BMI calc mvc.app/saxjax BMI calc mvc";
+			};
+			name = Release;
+		};
+		E4E9BE1328814637009C8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.saxjax-BMI-calc-mvcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "saxjax BMI calc mvc";
+			};
+			name = Debug;
+		};
+		E4E9BE1428814637009C8A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.saxjax.saxjax-BMI-calc-mvcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "saxjax BMI calc mvc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E9BDDD28814636009C8A8D /* Build configuration list for PBXProject "saxjax BMI calc mvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E9BE0A28814637009C8A8D /* Debug */,
+				E4E9BE0B28814637009C8A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E9BE0C28814637009C8A8D /* Build configuration list for PBXNativeTarget "saxjax BMI calc mvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E9BE0D28814637009C8A8D /* Debug */,
+				E4E9BE0E28814637009C8A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E9BE0F28814637009C8A8D /* Build configuration list for PBXNativeTarget "saxjax BMI calc mvcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E9BE1028814637009C8A8D /* Debug */,
+				E4E9BE1128814637009C8A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E9BE1228814637009C8A8D /* Build configuration list for PBXNativeTarget "saxjax BMI calc mvcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E9BE1328814637009C8A8D /* Debug */,
+				E4E9BE1428814637009C8A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4E9BDDA28814636009C8A8D /* Project object */;
+}
