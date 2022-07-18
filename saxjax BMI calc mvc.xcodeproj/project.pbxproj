@@ -16,6 +16,15 @@
 		E4E9BDFD28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BDFC28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift */; };
 		E4E9BE0728814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE0628814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift */; };
 		E4E9BE0928814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE0828814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift */; };
+		E4E9BE18288148AA009C8A8D /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE17288148AA009C8A8D /* CalculateViewController.swift */; };
+		E4E9BE19288148AA009C8A8D /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE17288148AA009C8A8D /* CalculateViewController.swift */; };
+		E4E9BE1B288149F4009C8A8D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE1A288149F4009C8A8D /* ResultViewController.swift */; };
+		E4E9BE1C288149F4009C8A8D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE1A288149F4009C8A8D /* ResultViewController.swift */; };
+		E4E9BE1D28814B88009C8A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E9BDEB28814636009C8A8D /* Main.storyboard */; };
+		E4E9BE1F2882F54B009C8A8D /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE1E2882F54B009C8A8D /* BMI.swift */; };
+		E4E9BE202882F54B009C8A8D /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE1E2882F54B009C8A8D /* BMI.swift */; };
+		E4E9BE232882F5C6009C8A8D /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE222882F5C6009C8A8D /* CalculatorBrain.swift */; };
+		E4E9BE242882F5C6009C8A8D /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9BE222882F5C6009C8A8D /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,10 @@
 		E4E9BE0228814637009C8A8D /* saxjax BMI calc mvcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saxjax BMI calc mvcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E9BE0628814637009C8A8D /* saxjax_BMI_calc_mvcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saxjax_BMI_calc_mvcUITests.swift; sourceTree = "<group>"; };
 		E4E9BE0828814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saxjax_BMI_calc_mvcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4E9BE17288148AA009C8A8D /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		E4E9BE1A288149F4009C8A8D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E4E9BE1E2882F54B009C8A8D /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		E4E9BE222882F5C6009C8A8D /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +114,9 @@
 			children = (
 				E4E9BDE528814636009C8A8D /* AppDelegate.swift */,
 				E4E9BDE728814636009C8A8D /* SceneDelegate.swift */,
-				E4E9BDE928814636009C8A8D /* ViewController.swift */,
-				E4E9BDEB28814636009C8A8D /* Main.storyboard */,
+				E4E9BE212882F58F009C8A8D /* Models */,
+				E4E9BE1628814686009C8A8D /* Views */,
+				E4E9BE152881465D009C8A8D /* Controllers */,
 				E4E9BDEE28814637009C8A8D /* Assets.xcassets */,
 				E4E9BDF028814637009C8A8D /* LaunchScreen.storyboard */,
 				E4E9BDF328814637009C8A8D /* Info.plist */,
@@ -125,6 +139,33 @@
 				E4E9BE0828814637009C8A8D /* saxjax_BMI_calc_mvcUITestsLaunchTests.swift */,
 			);
 			path = "saxjax BMI calc mvcUITests";
+			sourceTree = "<group>";
+		};
+		E4E9BE152881465D009C8A8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BDE928814636009C8A8D /* ViewController.swift */,
+				E4E9BE17288148AA009C8A8D /* CalculateViewController.swift */,
+				E4E9BE1A288149F4009C8A8D /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4E9BE1628814686009C8A8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BDEB28814636009C8A8D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4E9BE212882F58F009C8A8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9BE1E2882F54B009C8A8D /* BMI.swift */,
+				E4E9BE222882F5C6009C8A8D /* CalculatorBrain.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E9BE1D28814B88009C8A8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E9BE232882F5C6009C8A8D /* CalculatorBrain.swift in Sources */,
+				E4E9BE1B288149F4009C8A8D /* ResultViewController.swift in Sources */,
 				E4E9BDEA28814636009C8A8D /* ViewController.swift in Sources */,
+				E4E9BE18288148AA009C8A8D /* CalculateViewController.swift in Sources */,
 				E4E9BDE628814636009C8A8D /* AppDelegate.swift in Sources */,
+				E4E9BE1F2882F54B009C8A8D /* BMI.swift in Sources */,
 				E4E9BDE828814636009C8A8D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E9BE202882F54B009C8A8D /* BMI.swift in Sources */,
 				E4E9BDFD28814637009C8A8D /* saxjax_BMI_calc_mvcTests.swift in Sources */,
+				E4E9BE19288148AA009C8A8D /* CalculateViewController.swift in Sources */,
+				E4E9BE242882F5C6009C8A8D /* CalculatorBrain.swift in Sources */,
+				E4E9BE1C288149F4009C8A8D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

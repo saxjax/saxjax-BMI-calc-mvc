@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "saxjax rusland stamp thumb-1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "saxjax rusland stamp thumb.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "saxjax rusland stamp thumb-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
